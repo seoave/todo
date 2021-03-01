@@ -1,0 +1,130 @@
+/* common*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+
+section.body form {
+    margin-bottom: 16px;
+}
+
+.task-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 16px;
+    padding: 20px 10px;
+    background-color: #efefef;
+}
+
+form#addForm {
+    margin-bottom: 32px;
+}
+
+input#add-task {
+    width: 85%;
+}
+
+ul.tasks {
+    max-width: 550px;
+}
+
+ul.lists {
+    max-width: 300px;
+}
+
+ul.tasks, ul.lists {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-start;
+    border-bottom: 1px #ccc dashed;
+    margin-bottom: 24px;
+    padding-bottom: 6px;
+}
+
+
+.lists.wrapper {
+    max-width: 35%;
+}
+
+ul.lists li {
+    width: 100%;
+}
+
+.done-btn {
+    width: 50px;
+}
+
+li.list-item a {
+    text-decoration: none;
+}
+
+.rename-btn, .done-btn, .list-name {
+    margin-right: 16px;
+}
+
+.done .done-btn {
+    border: none;
+}
+
+.done .done-btn a {
+    display: none;
+}
+
+span.text {
+    width: 400px;
+    display: inline-block;
+    margin-right: 16px;
+    overflow-wrap: break-word;
+}
+
+.active-list {
+    color: green;
+    font-weight: 600;
+}
+
+.done .text {
+    text-decoration: line-through;
+    background-color: #efefef;
+}
+
+.disable {
+    display: none;
+}
+
+.done .disable {
+    display: inline-block;
+}
+
+/*registration*/
+section.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth {
+    max-width: 140px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.registration input {
+    margin-bottom: 16px;
+    height: 24px;
+}
